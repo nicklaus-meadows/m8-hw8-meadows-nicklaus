@@ -118,13 +118,22 @@ section.hero > button {
   text-transform: uppercase;
   cursor: pointer;
   transition: 500ms;
- 
+  
+  animation: hover ease 15s infinite;
 }
 
-section.hero > button:hover {
-  background-color: blue;
-  transform: translateY(-14px);
-  
+@keyframes hover {
+0% {background-color: #F78828}
+10% {background-color: #FA5456;}
+20% {background-color: yellow;}
+30% {background-color: yellowgreen}
+40% {background-color: lightblue;}
+50% {background-color: blue;}
+60% {background-color: darkblue;}
+70% {background-color: aqua;}
+80% {background-color: aliceblue;}
+90% {background-color: antiquewhite;}
+100% {background-color: whitesmoke;}
 }
 
 main article {
