@@ -39,12 +39,29 @@ header {
 header a {
   font-size: 1.5rem;
   color: var(--off-white);
+  transition: 500ms;
+}
+
+header a:hover {
+  color:#F78828;
+  transform: translateY(18px);
+
 }
 /* end header link animations */
 
 /* article link transitions */
 main a {
   color: var(--danger-color);
+  transition: 500ms;
+}
+
+main a:hover {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 8px;
+  transform: translateY(-19px);
+  
+  
 }
 /* end article link transitions */
 
@@ -100,6 +117,14 @@ section.hero > button {
   border-radius: 12px;
   text-transform: uppercase;
   cursor: pointer;
+  transition: 500ms;
+ 
+}
+
+section.hero > button:hover {
+  background-color: blue;
+  transform: translateY(-14px);
+  
 }
 
 main article {
